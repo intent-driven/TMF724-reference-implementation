@@ -1,0 +1,366 @@
+{
+  "ackTime": "ackTime",
+  "extensionInfo": [
+    {
+      "characteristicRelationship": [
+        {
+          "relationshipType": "relationshipType",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        },
+        {
+          "relationshipType": "relationshipType",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        }
+      ],
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "valueType": "valueType",
+      "name": "name",
+      "id": "id",
+      "@schemaLocation": "http://example.com/aeiou",
+      "value": {}
+    },
+    {
+      "characteristicRelationship": [
+        {
+          "relationshipType": "relationshipType",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        },
+        {
+          "relationshipType": "relationshipType",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        }
+      ],
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "valueType": "valueType",
+      "name": "name",
+      "id": "id",
+      "@schemaLocation": "http://example.com/aeiou",
+      "value": {}
+    }
+  ],
+  "clearTime": "clearTime",
+  "@type": "@type",
+  "impact": "impact",
+  "occurTime": "occurTime",
+  "affects": [
+    {
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+      "href": "http://myservice.com/resource-path",
+      "@schemaLocation": "http://example.com/aeiou"
+    },
+    {
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+      "href": "http://myservice.com/resource-path",
+      "@schemaLocation": "http://example.com/aeiou"
+    }
+  ],
+  "updateTime": "updateTime",
+  "priority": "priority",
+  "repairAdvice": "repairAdvice",
+  "sourceObjects": [
+    {
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+      "href": "http://myservice.com/resource-path",
+      "@schemaLocation": "http://example.com/aeiou"
+    },
+    {
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+      "href": "http://myservice.com/resource-path",
+      "@schemaLocation": "http://example.com/aeiou"
+    }
+  ],
+  "rootCauses": [
+    {
+      "rootCauseObject": {
+        "@baseType": "@baseType",
+        "@type": "@type",
+        "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+        "href": "http://myservice.com/resource-path",
+        "@schemaLocation": "http://example.com/aeiou"
+      },
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "name": "name",
+      "id": "id",
+      "href": "http://example.com/aeiou",
+      "detail": "detail",
+      "@schemaLocation": "http://example.com/aeiou"
+    },
+    {
+      "rootCauseObject": {
+        "@baseType": "@baseType",
+        "@type": "@type",
+        "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+        "href": "http://myservice.com/resource-path",
+        "@schemaLocation": "http://example.com/aeiou"
+      },
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "name": "name",
+      "id": "id",
+      "href": "http://example.com/aeiou",
+      "detail": "detail",
+      "@schemaLocation": "http://example.com/aeiou"
+    }
+  ],
+  "@baseType": "@baseType",
+  "urgency": "urgency",
+  "domain": "domain",
+  "name": "name",
+  "detail": "detail",
+  "category": "category",
+  "@schemaLocation": "http://example.com/aeiou",
+  "events": [
+    {
+      "eventId": "eventId",
+      "@type": "@type",
+      "analyticCharacteristic": [
+        {
+          "characteristicRelationship": [
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            },
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            }
+          ],
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "valueType": "valueType",
+          "name": "name",
+          "id": "id",
+          "@schemaLocation": "http://example.com/aeiou",
+          "value": {}
+        },
+        {
+          "characteristicRelationship": [
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            },
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            }
+          ],
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "valueType": "valueType",
+          "name": "name",
+          "id": "id",
+          "@schemaLocation": "http://example.com/aeiou",
+          "value": {}
+        }
+      ],
+      "description": "description",
+      "eventType": "eventType",
+      "source": {
+        "@referredType": "@referredType",
+        "@baseType": "@baseType",
+        "@type": "@type",
+        "name": "name",
+        "id": "id",
+        "href": "http://example.com/aeiou",
+        "@schemaLocation": "http://example.com/aeiou"
+      },
+      "priority": "priority",
+      "title": "title",
+      "relatedParty": [
+        {
+          "@referredType": "@referredType",
+          "role": "role",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "name": "name",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        },
+        {
+          "@referredType": "@referredType",
+          "role": "role",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "name": "name",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        }
+      ],
+      "@baseType": "@baseType",
+      "domain": "domain",
+      "eventTime": "2000-01-23T04:56:07.000+00:00",
+      "reportingSystem": {
+        "@referredType": "@referredType",
+        "@baseType": "@baseType",
+        "@type": "@type",
+        "name": "name",
+        "id": "id",
+        "href": "http://example.com/aeiou",
+        "@schemaLocation": "http://example.com/aeiou"
+      },
+      "correlationId": "correlationId",
+      "id": "id",
+      "href": "http://example.com/aeiou",
+      "@schemaLocation": "http://example.com/aeiou",
+      "timeOccurred": "2000-01-23T04:56:07.000+00:00"
+    },
+    {
+      "eventId": "eventId",
+      "@type": "@type",
+      "analyticCharacteristic": [
+        {
+          "characteristicRelationship": [
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            },
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            }
+          ],
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "valueType": "valueType",
+          "name": "name",
+          "id": "id",
+          "@schemaLocation": "http://example.com/aeiou",
+          "value": {}
+        },
+        {
+          "characteristicRelationship": [
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            },
+            {
+              "relationshipType": "relationshipType",
+              "@baseType": "@baseType",
+              "@type": "@type",
+              "id": "id",
+              "href": "http://example.com/aeiou",
+              "@schemaLocation": "http://example.com/aeiou"
+            }
+          ],
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "valueType": "valueType",
+          "name": "name",
+          "id": "id",
+          "@schemaLocation": "http://example.com/aeiou",
+          "value": {}
+        }
+      ],
+      "description": "description",
+      "eventType": "eventType",
+      "source": {
+        "@referredType": "@referredType",
+        "@baseType": "@baseType",
+        "@type": "@type",
+        "name": "name",
+        "id": "id",
+        "href": "http://example.com/aeiou",
+        "@schemaLocation": "http://example.com/aeiou"
+      },
+      "priority": "priority",
+      "title": "title",
+      "relatedParty": [
+        {
+          "@referredType": "@referredType",
+          "role": "role",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "name": "name",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        },
+        {
+          "@referredType": "@referredType",
+          "role": "role",
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "name": "name",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "@schemaLocation": "http://example.com/aeiou"
+        }
+      ],
+      "@baseType": "@baseType",
+      "domain": "domain",
+      "eventTime": "2000-01-23T04:56:07.000+00:00",
+      "reportingSystem": {
+        "@referredType": "@referredType",
+        "@baseType": "@baseType",
+        "@type": "@type",
+        "name": "name",
+        "id": "id",
+        "href": "http://example.com/aeiou",
+        "@schemaLocation": "http://example.com/aeiou"
+      },
+      "correlationId": "correlationId",
+      "id": "id",
+      "href": "http://example.com/aeiou",
+      "@schemaLocation": "http://example.com/aeiou",
+      "timeOccurred": "2000-01-23T04:56:07.000+00:00"
+    }
+  ],
+  "status": "status"
+}

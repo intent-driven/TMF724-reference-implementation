@@ -11,7 +11,7 @@ const {TError, TErrorEnum, sendError} = require('./utils/errorUtils');
 const app = require('connect')();
 const swaggerTools = require('swagger-tools');
 
-const serverPort = 8080;
+const serverPort = 8081;
 
 // Correct the url in swagger-ui-dist that points to some demo (like the petstore)
 // And add additional useful options
