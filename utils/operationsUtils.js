@@ -204,8 +204,15 @@ function processCommonAttributes(req, type, obj) {
     }
     
     if(typeprops.lastUpdate!==undefined) {
-       obj.lastUpdate = (new Date()).toISOString();
-    }
+      obj.lastUpdate = (new Date()).toISOString();
+   }
+
+   if(typeprops.occurTime!==undefined) {
+    obj.occurTime = (new Date()).toISOString();
+   }
+   if(typeprops.ackTime!==undefined) {
+    obj.ackTime = (new Date()).toISOString();
+   }
 
     if(typeprops["@schemaLocation"]!==undefined && obj["@schemaLocation"]===undefined) {
       const url = swaggerUtils.getURLScheme() + "://" + swaggerUtils.getHost() + "/docs/#/" 

@@ -1,47 +1,25 @@
 {
-  "ackTime": "2022-07-23T04:56:07.000+00:00",
-  "extensionInfo": [
-    {
-      "characteristicRelationship": [
-        {
-          "relationshipType": "a relationship",
-          "@baseType": "@Relationship",
-          "@type": "@type",
-          "id": "123",
-          "href": "http://example.com/aeiou",
-          "@schemaLocation": "http://example.com/aeiou"
-        }
-      ],
-      "@baseType": "@baseType",
-      "@type": "@type",
-      "valueType": "valueType",
-      "name": "name",
-      "id": "id",
-      "@schemaLocation": "http://example.com/aeiou",
-      "value": {}
-    }
-  ],  
-  "clearTime": "2022-07-23T04:56:07.000+00:00",
-  "@type": "Service Incident",
-  "impact": "impact",
-  "occurTime": "occurTime",
+  "ackTime": "2022-04-12T23:20:50.52Z",
+  "@type": "Incident",
+  "impact": "Not known",
+  "occurTime": "2022-04-12T23:20:50.52Z",
   "affects": [
     {
-      "@baseType": "@PrivateLine",
-      "@type": "PrivateLine Service",
+      "@baseType": "Core Slice",
+      "@type": "Slice",
       "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
       "href": "http://myservice.com/resource-path",
       "@schemaLocation": "http://example.com/aeiou"
     }
   ],
-  "updateTime": "2022-07-23T04:56:07.000+00:00",
+  "updateTime": "updateTime",
   "priority": "High",
-  "repairAdvice": "you should do this and then that",
+  "repairAdvice": "to this and then that",
   "sourceObjects": [
     {
-      "@baseType": "@Port",
-      "@type": "IP Port",
-      "id": "aac9969d-219d-4ff1-b256-1765dcf9b344",
+      "@baseType": "Network Element",
+      "@type": "Router",
+      "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
       "href": "http://myservice.com/resource-path",
       "@schemaLocation": "http://example.com/aeiou"
     }
@@ -49,57 +27,43 @@
   "rootCauses": [
     {
       "rootCauseObject": {
-        "@baseType": "@brokenPort",
-        "@type": "IP port broken",
+        "@baseType": "@baseType",
+        "@type": "@type",
         "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
         "href": "http://myservice.com/resource-path",
         "@schemaLocation": "http://example.com/aeiou"
       },
-      "@baseType": "@rootCause",
-      "@type": "The root of the incident",
-      "name": "My root cause",
-      "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "name": "name",
+      "id": "id",
+      "href": "http://example.com/aeiou",
+      "detail": "detail",
+      "@schemaLocation": "http://example.com/aeiou"
+    },
+    {
+      "rootCauseObject": {
+        "@baseType": "@baseType",
+        "@type": "@type",
+        "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+        "href": "http://myservice.com/resource-path",
+        "@schemaLocation": "http://example.com/aeiou"
+      },
+      "@baseType": "@baseType",
+      "@type": "@type",
+      "name": "name",
+      "id": "id",
       "href": "http://example.com/aeiou",
       "detail": "detail",
       "@schemaLocation": "http://example.com/aeiou"
     }
   ],
-  "@baseType": "@Incident",
-  "urgency": "Very urgent",
-  "domain": "PTN",
-  "name": "Incident 1234",
-  "detail": "this is a big problem",
+  "@baseType": "Incident",
+  "urgency": "High",
+  "domain": "Core",
+  "name": "Incident in the core slice",
+  "detail": "The delay of the traffic is too high",
   "category": "Line",
-  "@schemaLocation": "http://example.com/aeiou",
-  "events": [
-    {
-      "eventId": "1",
-      "@type": "alarm",
-      "description": "An alarm",
-      "eventType": "alarmEventType",
-      "priority": "High",
-      "title": "this was the alarm",
-      "@baseType": "@baseType",
-      "domain": "PTN",
-      "eventTime": "2000-01-23T04:56:07.000+00:00",
-      "reportingSystem": {
-        "@referredType": "Huawei NCE"
-      }
-    },    
-    {
-      "eventId": "2",
-      "@type": "alarm",
-      "description": "A 2nd alarm",
-      "eventType": "alarmEventType",
-      "priority": "High",
-      "title": "this was the 2nd alarm alarm",
-      "@baseType": "@baseType",
-      "domain": "PTN",
-      "eventTime": "2000-01-23T04:56:07.000+00:00",
-      "reportingSystem": {
-        "@referredType": "Huawei NCE"
-      }
-    }
-  ],
-  "status": "active"
+  "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/TurtleExpression.schema.json",
+  "status": "Active"
 }
