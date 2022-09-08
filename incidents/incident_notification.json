@@ -1,0 +1,79 @@
+{
+  "eventId": "454b076c-e609-44c9-be21-ea540b0977c7",
+  "eventTime": "2022-09-07T16:07:27.630Z",
+  "eventType": "IncidentCreationNotification",
+  "event": {
+    "incident": {
+      "ackTime": "2022-04-12T23:20:50.52Z",
+      "@type": "Incident",
+      "impact": "Not known",
+      "occurTime": "2022-04-12T23:20:50.52Z",
+      "affects": [
+        {
+          "@baseType": "Core Slice",
+          "@type": "Slice",
+          "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+          "href": "http://myservice.com/resource-path",
+          "@schemaLocation": "http://example.com/aeiou"
+        }
+      ],
+      "updateTime": "updateTime",
+      "priority": "High",
+      "repairAdvice": "to this and then that",
+      "sourceObjects": [
+        {
+          "@baseType": "Network Element",
+          "@type": "Router",
+          "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+          "href": "http://myservice.com/resource-path",
+          "@schemaLocation": "http://example.com/aeiou"
+        }
+      ],
+      "rootCauses": [
+        {
+          "rootCauseObject": {
+            "@baseType": "@baseType",
+            "@type": "@type",
+            "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+            "href": "http://myservice.com/resource-path",
+            "@schemaLocation": "http://example.com/aeiou"
+          },
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "name": "name",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "detail": "detail",
+          "@schemaLocation": "http://example.com/aeiou"
+        },
+        {
+          "rootCauseObject": {
+            "@baseType": "@baseType",
+            "@type": "@type",
+            "id": "aac9969d-219d-4ff1-b256-1765dcf9b342",
+            "href": "http://myservice.com/resource-path",
+            "@schemaLocation": "http://example.com/aeiou"
+          },
+          "@baseType": "@baseType",
+          "@type": "@type",
+          "name": "name",
+          "id": "id",
+          "href": "http://example.com/aeiou",
+          "detail": "detail",
+          "@schemaLocation": "http://example.com/aeiou"
+        }
+      ],
+      "@baseType": "Incident",
+      "urgency": "High",
+      "domain": "Core",
+      "name": "Incident in the core slice",
+      "detail": "The delay of the traffic is too high",
+      "category": "Line",
+      "@schemaLocation": "https://mycsp.com:8080/tmf-api/schema/Common/TurtleExpression.schema.json",
+      "status": "Active",
+      "id": "b6ca3448-7278-4e7c-82f1-ab69838ddba4",
+      "href": "http://10.220.239.92:8192/tmf-api/Incident/v4/incident/b6ca3448-7278-4e7c-82f1-ab69838ddba4"
+    }
+  },
+  "id": "dfb071fd-ee02-40cf-a485-994ffc565331"
+}

@@ -9,6 +9,7 @@ const util = require('util');
 const uuid = require('uuid');
 
 const mongoUtils = require('../utils/mongoUtils');
+const handlerUtils = require('../utils/handlerUtils');
 const swaggerUtils = require('../utils/swaggerUtils');
 const notificationUtils = require('../utils/notificationUtils');
 
@@ -18,6 +19,8 @@ const {setBaseProperties, traverse,
        addHref, processCommonAttributes } = require('../utils/operationsUtils');
 
 const {validateRequest} = require('../utils/ruleUtils');
+
+const {getR1Intent} = require('../utils/handlerUtils');
 
 const {processAssignmentRules} = require('../utils/operations');
 
@@ -30,7 +33,7 @@ const {TError, TErrorEnum, sendError} = require('../utils/errorUtils');
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-exports.createIncident = function(req, res, next) {
+exports.createIncident = async function(req, res, next) {
   /**
    * Creates a Incident
    * This operation creates a Incident entity.
@@ -42,7 +45,6 @@ exports.createIncident = function(req, res, next) {
   console.log('createIncident :: ' + req.method + ' ' + req.url + ' ' + req.headers.host);
 
   /* matching isRestfulCreate - argument incident */
-  
   const resourceType = getResponseType(req);
   const requestSchema = getPayloadSchema(req);
 
@@ -51,6 +53,7 @@ exports.createIncident = function(req, res, next) {
     .then(payload => traverse(req, requestSchema, payload,[],getPayloadType(req)))
     .then(payload => processCommonAttributes(req, resourceType, payload))
     .then(payload => processAssignmentRules('createIncident', payload))
+    .then(payload => getR1Intent(req,payload))
     .then(payload => {
 
       const internalError =  new TError(TErrorEnum.INTERNAL_SERVER_ERROR, "Internal database error");
