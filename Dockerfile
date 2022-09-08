@@ -8,10 +8,6 @@ WORKDIR /usr/src/app
 # where available (npm@5+)
 COPY package*.json ./
 #add proxy
-RUN npm config set proxy http://172.17.0.1:3128
-RUN npm config set https-proxy http://172.17.0.1:3128
-RUN npm config set strict-ssl false
-RUN npm config set registry=http://registry.npmjs.org/
 
 RUN npm install
 # If you are building your code for production
@@ -20,7 +16,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8081
 #CMD [ "node", "server.js" ]
 CMD ["npm", "start"]
 
