@@ -39,7 +39,7 @@ function getR1Intent(req,payload) {
     .then(doc => {
       console.log('done '+doc)
       doc.forEach(x => {
-        payload.affects[0].id=x.id;
+        payload.affects[0].id=x.version;
         return  resolve(payload);
     })
 
